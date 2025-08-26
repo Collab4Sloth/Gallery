@@ -2,12 +2,22 @@
 Hall of Fame of simulations performed with SLOTH
 
 
+## Coalescence of two bubbles
+
+This simulation is adapted from a case published in  [L.Bu, et al., Comp. and Math. With Appl. 78(2019)3485–3500](https://doi.org/10.1016/j.camwa.2019.05.016). 
+
+The initial condition consists of two bubbles that coalesce over time.
+
+This 3D  simulation is run with $32$ million DOF over $4096$ MPI processes on Topaze supercomputer at CEA.
+
+![](Animations/bubbles_coalescence.gif)
+
 ## Incipient melting in a pellet fragment under an ad-hoc temperature dependent enthalpy of melting
 
 ![](Animations/AdHocIncipientMelting.gif)
 
 This test has been performed in order to challenge the code over a huge number of degrees of freedom (DOF). 
-Indeed, this3D  simulation is run with $1.2$ billion DOF over 
+Indeed, this 3D  simulation is run with $1.2$ billion DOF over 
 $32768$ MPI processes on Topaze supercomputer at CEA
 
 
